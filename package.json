@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://elsemitchell1.github.io/MitchellsPortfolio",
+  "homepage": "https://elsemitchell1.github.io/MitchellsPortfolio/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
