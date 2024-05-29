@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/NewPortfolio/static/css/main.f6a69e16.css",
+    "main.js": "/NewPortfolio/static/js/main.2e56bb8f.js",
+    "static/js/453.1407b060.chunk.js": "/NewPortfolio/static/js/453.1407b060.chunk.js",
+    "static/media/FamilyPortrait.png": "/NewPortfolio/static/media/FamilyPortrait.9992ecd5c41222aaa24a.png",
+    "static/media/australia.jpg": "/NewPortfolio/static/media/australia.8ad2687c1542b06cf401.jpg",
+    "static/media/Mitchell Else - Resume 2023.webp": "/NewPortfolio/static/media/Mitchell Else - Resume 2023.b99e3c6d2ea54bb18bef.webp",
+    "index.html": "/NewPortfolio/index.html",
+    "main.f6a69e16.css.map": "/NewPortfolio/static/css/main.f6a69e16.css.map",
+    "main.2e56bb8f.js.map": "/NewPortfolio/static/js/main.2e56bb8f.js.map",
+    "453.1407b060.chunk.js.map": "/NewPortfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6a69e16.css",
+    "static/js/main.2e56bb8f.js"
+  ]
+}
