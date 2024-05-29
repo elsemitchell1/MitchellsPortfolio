@@ -8,7 +8,7 @@ import ResumePage from "./Pages/ResumePage";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/MitchellsPortfolio">
       <Navbar />
       <Routes>
         <Route path='/' element={<HomePage />} />
