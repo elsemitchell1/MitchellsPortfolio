@@ -30,7 +30,7 @@ const HomePage = () => {
       image: Australia,
     }
   return (
-    <div>
+    <div className='my-10'>
         <Hero heading={hero1.heading} secondheading={hero1.secondheading}
         info={hero1.info}
         image={hero1.image}
