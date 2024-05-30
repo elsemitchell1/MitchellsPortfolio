@@ -21,11 +21,11 @@ const HomePage = () => {
       heading: "Backstory",
       secondheading: " ",
       info:
-        `Originally born in Australia, I now reside in 
+        `Originally from Australia, I now reside in 
         Edmonton AB, Canada. In Australia I was a trade 
         qualified heavy metal fabricator. After almost 
         10 years of experience in metal fabrication I am 
-        looking to pursue a new career path and utilise 
+        pursuing a new career path, utilising 
         my problem solving skills in web development.`,
       image: Australia,
     }

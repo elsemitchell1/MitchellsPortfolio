@@ -13,7 +13,7 @@ const Navbar = () => {
             <div className='flex items-center h-20'>
                 <Link to='/' className='flex items-center text-4xl text-gradient'>
                     <FaHome className='text-[#ffa500]' />
-                    <h1 className='font-bold ml-6'>Mitchell Else</h1>
+                    <h1 className='ml-6 font-bold'>Mitchell Else</h1>
                 </Link>
             </div>
             <div id="mobileMenu"
@@ -35,7 +35,7 @@ const Navbar = () => {
               </li>
               <li className="mb-5 lg:mb-0">
                 <NavLink
-                  to="/About"
+                  to="/Work"
                   className={({ isActive }) =>
                     isActive
                       ? "text-gradient font-bold border-b"
@@ -43,7 +43,7 @@ const Navbar = () => {
                   }
                   onClick={toggleMobileMenu}
                 >
-                  About
+                  Work
                 </NavLink>
               </li>
               <li className="mb-5 lg:mb-0">
