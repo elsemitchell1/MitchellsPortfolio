@@ -5,6 +5,7 @@ const Hero = (props) => {
     const [currentIndex, setCurrentIndex] = useState(0);
 
     useEffect(() => {
+      if(props.secondheading){
         const interval = setInterval(() => {
             const text = props.secondheading;
             setTypedText(text.substring(0, currentIndex));
@@ -12,6 +13,7 @@ const Hero = (props) => {
         }, 200);
 
         return () => clearInterval(interval);
+      }
     }, [currentIndex, props.secondheading]);
   return (
     <div className='flex flex-col items-center justify-center m-10 text-white w-7/8'>
@@ -20,10 +22,12 @@ const Hero = (props) => {
             <h2 className='font-semibold text-4xl max-w-[350px] lg:text-6xl lg:leading-[5rem]'>
               {props.heading}
             </h2>
+            {props.secondheading &&
             <h4 className='font-semibold text-xl min-w-[100px] max-w-[350px] h-8 lg:h-10 text-gradient lg:text-2xl my-4'>
               {typedText}
               <span className='absolute w-1 h-[1.8rem] lg:h-[2rem] bg-white animate-typing-bar'></span>
             </h4>
+            }
             <p className='mb-8 text-base leading-8 max-w-[400px]'>
               {props.info}
             </p>

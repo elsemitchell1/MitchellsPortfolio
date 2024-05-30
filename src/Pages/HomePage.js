@@ -19,7 +19,7 @@ const HomePage = () => {
     };
     const hero2 = {
       heading: "Backstory",
-      secondheading: "My background",
+      secondheading: " ",
       info:
         `Originally born in Australia, I now reside in 
         Edmonton AB, Canada. In Australia I was a trade 
@@ -35,7 +35,7 @@ const HomePage = () => {
         info={hero1.info}
         image={hero1.image}
         reverse={false} />
-        <Hero heading={hero2.heading} secondheading={hero2.secondheading}
+        <Hero heading={hero2.heading}
         info={hero2.info}
         image={hero2.image}
         reverse={true} />
