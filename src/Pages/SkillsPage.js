@@ -127,8 +127,8 @@ const SkillsPage = () => {
   return (
     <div className='m-10'>
       <div className='flex flex-col items-center justify-center max-w-5xl text-white md:mx-auto w-7/8'>
-          <h1 className='mb-6 font-bold underline text-7xl'>Skills</h1>
-          <p className='text-lg font-semibold'>Here are some of the skills that I have been working on.</p>
+          <h1 className='mb-6 text-5xl font-bold underline lg:text-7xl'>Skills</h1>
+          <p className='font-semibold text-center text-md lg:text-lg'>Here are some of the skills that I have been working on.</p>
           <div className='flex flex-wrap justify-center justify-between w-full my-10 gap-y-10'>
             {skills.map((skill, index) => (
               <Skills heading={skill.heading} key={index} skills={skill.skills} />

@@ -15,6 +15,9 @@ const WorkPage = () => {
   ];
   return (
     <div className='m-10'>
+        <div className='flex justify-center'>
+          <h1 className='mb-6 text-4xl font-bold text-white underline lg:text-7xl'>Work Experience</h1>
+        </div>
         <Timeline timelineData={timelineData} />
     </div>
   )
