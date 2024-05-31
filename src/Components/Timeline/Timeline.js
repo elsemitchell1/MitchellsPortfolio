@@ -17,7 +17,7 @@ const Timeline = (props) => {
             </div>
           </div>
           <div className="relative flex items-center justify-center w-12 mx-auto my-8 lg:my-0">
-            <div className="z-10 w-10 h-10 bg-gradient-to-l from-[#FFA500] to-[#FFFF00] rounded-full"></div>
+            <div className="z-10 w-10 h-10 bg-gradient-to-r from-[#FFA500] to-[#FFFF00] rounded-full"></div>
           </div>
           <div className="lg:w-1/2 ml-[5px] lg:ml-[1.5px]"></div>
         </div>
