@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/MitchellsPortfolio/static/css/main.06de9dfb.css",
-    "main.js": "/MitchellsPortfolio/static/js/main.36191750.js",
+    "main.css": "/MitchellsPortfolio/static/css/main.fe70f9eb.css",
+    "main.js": "/MitchellsPortfolio/static/js/main.76539261.js",
     "static/js/453.1407b060.chunk.js": "/MitchellsPortfolio/static/js/453.1407b060.chunk.js",
     "static/media/FamilyPortrait.png": "/MitchellsPortfolio/static/media/FamilyPortrait.9992ecd5c41222aaa24a.png",
     "static/media/australia.jpg": "/MitchellsPortfolio/static/media/australia.8ad2687c1542b06cf401.jpg",
     "static/media/Mitchell Else - Resume 2023.webp": "/MitchellsPortfolio/static/media/Mitchell Else - Resume 2023.b99e3c6d2ea54bb18bef.webp",
     "index.html": "/MitchellsPortfolio/index.html",
-    "main.06de9dfb.css.map": "/MitchellsPortfolio/static/css/main.06de9dfb.css.map",
-    "main.36191750.js.map": "/MitchellsPortfolio/static/js/main.36191750.js.map",
+    "main.fe70f9eb.css.map": "/MitchellsPortfolio/static/css/main.fe70f9eb.css.map",
+    "main.76539261.js.map": "/MitchellsPortfolio/static/js/main.76539261.js.map",
     "453.1407b060.chunk.js.map": "/MitchellsPortfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.06de9dfb.css",
-    "static/js/main.36191750.js"
+    "static/css/main.fe70f9eb.css",
+    "static/js/main.76539261.js"
   ]
 }
