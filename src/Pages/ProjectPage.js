@@ -355,7 +355,7 @@ const ProjectPage = () => {
         },
     ]
   return (
-    <div className='flex-col justify-center m-8 text-white'>
+    <div className='flex flex-col items-center justify-center m-8 text-white'>
         <h1 className='mb-6 text-5xl font-bold text-center underline lg:text-7xl'>Projects</h1>
         <div className='flex flex-wrap justify-center max-w-5xl gap-10 m-8'>
             {projects.map((project, key) => (
