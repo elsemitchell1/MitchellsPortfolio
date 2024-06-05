@@ -20,7 +20,7 @@ const Navbar = () => {
             className={`${mobileMenuVisible ? "bg-black" : "hidden"} 
             z-50 absolute top-20 left-0 right-0 text-center lg:block lg:relative lg:top-0 lg:shadow-none`}>
             <ul className="text-lg font-semibold lg:flex lg:space-x-8">
-              <li className="mb-5 lg:mb-0">
+              <li className="mb-5 lg:mb-0 lg:hover:scale-105">
                 <NavLink
                   to="/"
                   className={({ isActive }) =>
@@ -33,7 +33,7 @@ const Navbar = () => {
                   Home
                 </NavLink>
               </li>
-              <li className="mb-5 lg:mb-0">
+              <li className="mb-5 lg:mb-0 lg:hover:scale-105">
                 <NavLink
                   to="/Work"
                   className={({ isActive }) =>
@@ -46,7 +46,7 @@ const Navbar = () => {
                   Work
                 </NavLink>
               </li>
-              <li className="mb-5 lg:mb-0">
+              <li className="mb-5 lg:mb-0 lg:hover:scale-105">
                 <NavLink
                   to="/Skills"
                   className={({ isActive }) =>
@@ -59,7 +59,7 @@ const Navbar = () => {
                   Skills
                 </NavLink>
               </li>
-              <li className="mb-5 lg:mb-0">
+              <li className="mb-5 lg:mb-0 lg:hover:scale-105">
                 <NavLink
                   to="/Resume"
                   className={({ isActive }) =>
@@ -72,7 +72,7 @@ const Navbar = () => {
                   Resume
                 </NavLink>
               </li>
-              <li className="mb-5 lg:mb-0">
+              <li className="mb-5 lg:mb-0 lg:hover:scale-105">
                 <NavLink
                   to="/Projects"
                   className={({ isActive }) =>
