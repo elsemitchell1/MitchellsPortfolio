@@ -3,18 +3,25 @@ import React, { useEffect, useState } from 'react'
 const Hero = (props) => {
     const [typedText, setTypedText] = useState('');
     const [currentIndex, setCurrentIndex] = useState(0);
+    const [phraseIndex, setPhraseIndex] = useState(0);
 
     useEffect(() => {
       if(props.secondheading){
         const interval = setInterval(() => {
-            const text = props.secondheading;
+            const text = props.secondheading[phraseIndex];
             setTypedText(text.substring(0, currentIndex));
-            setCurrentIndex((prevIndex) => (prevIndex === text.length ? 0 : prevIndex + 1));
+            setCurrentIndex((prevIndex) => {
+              if(prevIndex === text.length){
+                setPhraseIndex((prevPhraseIndex) => (prevPhraseIndex + 1) % props.secondheading.length);
+                return 0;
+              }
+              return prevIndex + 1;
+            });
         }, 200);
 
         return () => clearInterval(interval);
       }
-    }, [currentIndex, props.secondheading]);
+    }, [currentIndex, phraseIndex, props.secondheading]);
   return (
     <div className='flex flex-col items-center justify-center mx-10 text-white w-7/8'>
         <div className={`p-8 max-w-7xl justify-center justify-between lg:gap-x-14 flex ${props.reverse ? 'flex-col-reverse lg:flex-row-reverse' : 'flex-col-reverse lg:flex-row'}`}>
@@ -24,7 +31,7 @@ const Hero = (props) => {
             </h2>
             {props.secondheading &&
             <h4 className='font-semibold text-xl min-w-[100px] max-w-[350px] h-8 lg:h-10 text-gradient lg:text-2xl my-4'>
-              {typedText}
+              I am a, {typedText}
               <span className='absolute w-1 h-[1.8rem] lg:h-[2rem] bg-white animate-typing-bar'></span>
             </h4>
             }

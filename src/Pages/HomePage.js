@@ -6,7 +6,7 @@ import Australia from '../Images/australia.jpg';
 const HomePage = () => {
     const hero1 = {
         heading: "Hi, I am Mitchell Else",
-        secondheading: "I am a Front-End Developer",
+        secondheading: ["Web Developer.", "Problem Solver.", "Tech Enthusiast."],
         info:
           `I am a dedicated front-end web developer currently 
           halfway through my computer science degree. Known 
@@ -19,7 +19,6 @@ const HomePage = () => {
     };
     const hero2 = {
       heading: "Backstory",
-      secondheading: " ",
       info:
         `Originally from Australia, I now reside in 
         Edmonton AB, Canada. In Australia I was a trade 
@@ -43,4 +42,4 @@ const HomePage = () => {
   )
 }
 
-export default HomePage
+export default HomePage;
