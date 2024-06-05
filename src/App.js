@@ -5,6 +5,7 @@ import HomePage from "./Pages/HomePage";
 import SkillsPage from "./Pages/SkillsPage";
 import WorkPage from "./Pages/WorkPage";
 import ResumePage from "./Pages/ResumePage";
+import ProjectPage from "./Pages/ProjectPage";
 
 function App() {
   const ScrollToTop = () => {
@@ -22,6 +23,7 @@ function App() {
         <Route path='/Skills' element={<SkillsPage />} />
         <Route path='/Work' element={<WorkPage />} />
         <Route path='/Resume' element={<ResumePage />} />
+        <Route path='/Projects' element={<ProjectPage />} />
       </Routes>
     </BrowserRouter>
   );
