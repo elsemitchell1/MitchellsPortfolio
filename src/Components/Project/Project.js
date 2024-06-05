@@ -3,7 +3,8 @@ import FamilyPortrait from '../../Images/FamilyPortrait.png'
 
 const Project = (props) => {
   return (
-    <div className='hover:scale-105 p-px bg-gradient-to-r from-[#FFA500] to-[#FFFF00] rounded-2xl'>
+    <a href="#"
+    className='hover:scale-105 p-px bg-gradient-to-r from-[#FFA500] to-[#FFFF00] rounded-2xl'>
         <div className='p-3 bg-black w-60 h-96 rounded-2xl'>
             <div className='top-0 h-32 overflow-hidden rounded-xl'>
                 <img src={FamilyPortrait} alt='project' className='object-cover min-w-full min-h-full' />
@@ -24,7 +25,7 @@ const Project = (props) => {
               </p>
             </div>
         </div>
-    </div>
+    </a>
   )
 }
 
