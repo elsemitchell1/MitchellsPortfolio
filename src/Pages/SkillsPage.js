@@ -1,7 +1,7 @@
 import React from 'react';
 import Skills from '../Components/Skills/Skills';
 import { FaBusinessTime, FaChalkboardTeacher, FaCss3, FaHtml5, FaJava, FaJs, FaNode, FaPython, FaReact } from 'react-icons/fa';
-import { SiCplusplus, SiCsharp, SiDotnet, SiExpress, SiFirebase, SiJquery, SiMysql, SiRedux } from 'react-icons/si';
+import { SiCplusplus, SiCsharp, SiDotnet, SiExpress, SiFirebase, SiJquery, SiMysql, SiRedux, SiTailwindcss } from 'react-icons/si';
 import { GiTalk, GiTeamIdea, GiThink } from 'react-icons/gi';
 import { TfiThought } from 'react-icons/tfi';
 
@@ -17,6 +17,10 @@ const SkillsPage = () => {
         {
           icon: <SiRedux color='#764ABC' />,
           skill: 'Redux',
+        },
+        {
+          icon: <SiTailwindcss color='#06b6d4' />,
+          skill: 'Tailwindcss',
         },
         {
           icon: <FaHtml5 color='#e34c26' />,

@@ -1,12 +1,14 @@
 import React from 'react';
 import Project from '../Components/Project/Project';
 import { FaCss3, FaHtml5, FaJs, FaReact } from 'react-icons/fa';
-import { SiJquery, SiRedux } from 'react-icons/si';
+import { SiFirebase, SiRedux, SiTailwindcss } from 'react-icons/si';
 
 const ProjectPage = () => {
     const projects = [
         {
-            bool: false,
+            name: "Just Natural Paws",
+            date: "July 2023 - May 2024",
+            info: "The Just Natural Paws website was built from scratch to provide an online presence and a place to purchase products.",
             skills: [
                 {
                   icon: <FaReact color='#61dafb' />,
@@ -17,25 +19,31 @@ const ProjectPage = () => {
                   skill: 'Redux',
                 },
                 {
-                  icon: <FaHtml5 color='#e34c26' />,
-                  skill: 'HTML',
-                },
-                {
-                  icon: <FaCss3 color='#264de4' />,
-                  skill: 'CSS',
+                  icon: <SiTailwindcss color='#06b6d4' />,
+                  skill: 'Tailwindcss',
                 },
                 {
                   icon: <FaJs color='yellow' />,
                   skill: 'JavaScript',
                 },
                 {
-                  icon: <SiJquery color='#7acef4' />,
-                  skill: 'JQuery',
+                  icon: <SiFirebase color='#ffa611' />,
+                  skill: 'Firebase',
+                },
+                {
+                  icon: <FaHtml5 color='#e34c26' />,
+                  skill: 'HTML',
+                },
+                {
+                  icon: <FaCss3 color='#264de4' />,
+                  skill: 'CSS',
                 },
               ]
         },
         {
-            bool: true,
+            name: "Just Natural Paws",
+            date: "July 2023 - May 2024",
+            info: "The Just Natural Paws website was built from scratch to provide an online presence and a place to purchase products.",
             skills: [
                 {
                   icon: <FaReact color='#61dafb' />,
@@ -46,25 +54,31 @@ const ProjectPage = () => {
                   skill: 'Redux',
                 },
                 {
-                  icon: <FaHtml5 color='#e34c26' />,
-                  skill: 'HTML',
-                },
-                {
-                  icon: <FaCss3 color='#264de4' />,
-                  skill: 'CSS',
+                  icon: <SiTailwindcss color='#06b6d4' />,
+                  skill: 'Tailwindcss',
                 },
                 {
                   icon: <FaJs color='yellow' />,
                   skill: 'JavaScript',
                 },
                 {
-                  icon: <SiJquery color='#7acef4' />,
-                  skill: 'JQuery',
+                  icon: <SiFirebase color='#ffa611' />,
+                  skill: 'Firebase',
+                },
+                {
+                  icon: <FaHtml5 color='#e34c26' />,
+                  skill: 'HTML',
+                },
+                {
+                  icon: <FaCss3 color='#264de4' />,
+                  skill: 'CSS',
                 },
               ]
         },
         {
-            bool: false,
+            name: "Just Natural Paws",
+            date: "July 2023 - May 2024",
+            info: "The Just Natural Paws website was built from scratch to provide an online presence and a place to purchase products.",
             skills: [
                 {
                   icon: <FaReact color='#61dafb' />,
@@ -75,25 +89,31 @@ const ProjectPage = () => {
                   skill: 'Redux',
                 },
                 {
-                  icon: <FaHtml5 color='#e34c26' />,
-                  skill: 'HTML',
-                },
-                {
-                  icon: <FaCss3 color='#264de4' />,
-                  skill: 'CSS',
+                  icon: <SiTailwindcss color='#06b6d4' />,
+                  skill: 'Tailwindcss',
                 },
                 {
                   icon: <FaJs color='yellow' />,
                   skill: 'JavaScript',
                 },
                 {
-                  icon: <SiJquery color='#7acef4' />,
-                  skill: 'JQuery',
+                  icon: <SiFirebase color='#ffa611' />,
+                  skill: 'Firebase',
+                },
+                {
+                  icon: <FaHtml5 color='#e34c26' />,
+                  skill: 'HTML',
+                },
+                {
+                  icon: <FaCss3 color='#264de4' />,
+                  skill: 'CSS',
                 },
               ]
         },
         {
-            bool: true,
+            name: "Just Natural Paws",
+            date: "July 2023 - May 2024",
+            info: "The Just Natural Paws website was built from scratch to provide an online presence and a place to purchase products.",
             skills: [
                 {
                   icon: <FaReact color='#61dafb' />,
@@ -104,25 +124,31 @@ const ProjectPage = () => {
                   skill: 'Redux',
                 },
                 {
-                  icon: <FaHtml5 color='#e34c26' />,
-                  skill: 'HTML',
-                },
-                {
-                  icon: <FaCss3 color='#264de4' />,
-                  skill: 'CSS',
+                  icon: <SiTailwindcss color='#06b6d4' />,
+                  skill: 'Tailwindcss',
                 },
                 {
                   icon: <FaJs color='yellow' />,
                   skill: 'JavaScript',
                 },
                 {
-                  icon: <SiJquery color='#7acef4' />,
-                  skill: 'JQuery',
+                  icon: <SiFirebase color='#ffa611' />,
+                  skill: 'Firebase',
+                },
+                {
+                  icon: <FaHtml5 color='#e34c26' />,
+                  skill: 'HTML',
+                },
+                {
+                  icon: <FaCss3 color='#264de4' />,
+                  skill: 'CSS',
                 },
               ]
         },
         {
-            bool: false,
+            name: "Just Natural Paws",
+            date: "July 2023 - May 2024",
+            info: "The Just Natural Paws website was built from scratch to provide an online presence and a place to purchase products.",
             skills: [
                 {
                   icon: <FaReact color='#61dafb' />,
@@ -133,25 +159,31 @@ const ProjectPage = () => {
                   skill: 'Redux',
                 },
                 {
-                  icon: <FaHtml5 color='#e34c26' />,
-                  skill: 'HTML',
-                },
-                {
-                  icon: <FaCss3 color='#264de4' />,
-                  skill: 'CSS',
+                  icon: <SiTailwindcss color='#06b6d4' />,
+                  skill: 'Tailwindcss',
                 },
                 {
                   icon: <FaJs color='yellow' />,
                   skill: 'JavaScript',
                 },
                 {
-                  icon: <SiJquery color='#7acef4' />,
-                  skill: 'JQuery',
+                  icon: <SiFirebase color='#ffa611' />,
+                  skill: 'Firebase',
+                },
+                {
+                  icon: <FaHtml5 color='#e34c26' />,
+                  skill: 'HTML',
+                },
+                {
+                  icon: <FaCss3 color='#264de4' />,
+                  skill: 'CSS',
                 },
               ]
         },
         {
-            bool: true,
+            name: "Just Natural Paws",
+            date: "July 2023 - May 2024",
+            info: "The Just Natural Paws website was built from scratch to provide an online presence and a place to purchase products.",
             skills: [
                 {
                   icon: <FaReact color='#61dafb' />,
@@ -162,25 +194,31 @@ const ProjectPage = () => {
                   skill: 'Redux',
                 },
                 {
-                  icon: <FaHtml5 color='#e34c26' />,
-                  skill: 'HTML',
-                },
-                {
-                  icon: <FaCss3 color='#264de4' />,
-                  skill: 'CSS',
+                  icon: <SiTailwindcss color='#06b6d4' />,
+                  skill: 'Tailwindcss',
                 },
                 {
                   icon: <FaJs color='yellow' />,
                   skill: 'JavaScript',
                 },
                 {
-                  icon: <SiJquery color='#7acef4' />,
-                  skill: 'JQuery',
+                  icon: <SiFirebase color='#ffa611' />,
+                  skill: 'Firebase',
+                },
+                {
+                  icon: <FaHtml5 color='#e34c26' />,
+                  skill: 'HTML',
+                },
+                {
+                  icon: <FaCss3 color='#264de4' />,
+                  skill: 'CSS',
                 },
               ]
         },
         {
-            bool: false,
+            name: "Just Natural Paws",
+            date: "July 2023 - May 2024",
+            info: "The Just Natural Paws website was built from scratch to provide an online presence and a place to purchase products.",
             skills: [
                 {
                   icon: <FaReact color='#61dafb' />,
@@ -191,25 +229,31 @@ const ProjectPage = () => {
                   skill: 'Redux',
                 },
                 {
-                  icon: <FaHtml5 color='#e34c26' />,
-                  skill: 'HTML',
-                },
-                {
-                  icon: <FaCss3 color='#264de4' />,
-                  skill: 'CSS',
+                  icon: <SiTailwindcss color='#06b6d4' />,
+                  skill: 'Tailwindcss',
                 },
                 {
                   icon: <FaJs color='yellow' />,
                   skill: 'JavaScript',
                 },
                 {
-                  icon: <SiJquery color='#7acef4' />,
-                  skill: 'JQuery',
+                  icon: <SiFirebase color='#ffa611' />,
+                  skill: 'Firebase',
+                },
+                {
+                  icon: <FaHtml5 color='#e34c26' />,
+                  skill: 'HTML',
+                },
+                {
+                  icon: <FaCss3 color='#264de4' />,
+                  skill: 'CSS',
                 },
               ]
         },
         {
-            bool: true,
+            name: "Just Natural Paws",
+            date: "July 2023 - May 2024",
+            info: "The Just Natural Paws website was built from scratch to provide an online presence and a place to purchase products.",
             skills: [
                 {
                   icon: <FaReact color='#61dafb' />,
@@ -220,25 +264,31 @@ const ProjectPage = () => {
                   skill: 'Redux',
                 },
                 {
-                  icon: <FaHtml5 color='#e34c26' />,
-                  skill: 'HTML',
-                },
-                {
-                  icon: <FaCss3 color='#264de4' />,
-                  skill: 'CSS',
+                  icon: <SiTailwindcss color='#06b6d4' />,
+                  skill: 'Tailwindcss',
                 },
                 {
                   icon: <FaJs color='yellow' />,
                   skill: 'JavaScript',
                 },
                 {
-                  icon: <SiJquery color='#7acef4' />,
-                  skill: 'JQuery',
+                  icon: <SiFirebase color='#ffa611' />,
+                  skill: 'Firebase',
+                },
+                {
+                  icon: <FaHtml5 color='#e34c26' />,
+                  skill: 'HTML',
+                },
+                {
+                  icon: <FaCss3 color='#264de4' />,
+                  skill: 'CSS',
                 },
               ]
         },
         {
-            bool: false,
+            name: "Just Natural Paws",
+            date: "July 2023 - May 2024",
+            info: "The Just Natural Paws website was built from scratch to provide an online presence and a place to purchase products.",
             skills: [
                 {
                   icon: <FaReact color='#61dafb' />,
@@ -249,25 +299,31 @@ const ProjectPage = () => {
                   skill: 'Redux',
                 },
                 {
-                  icon: <FaHtml5 color='#e34c26' />,
-                  skill: 'HTML',
-                },
-                {
-                  icon: <FaCss3 color='#264de4' />,
-                  skill: 'CSS',
+                  icon: <SiTailwindcss color='#06b6d4' />,
+                  skill: 'Tailwindcss',
                 },
                 {
                   icon: <FaJs color='yellow' />,
                   skill: 'JavaScript',
                 },
                 {
-                  icon: <SiJquery color='#7acef4' />,
-                  skill: 'JQuery',
+                  icon: <SiFirebase color='#ffa611' />,
+                  skill: 'Firebase',
+                },
+                {
+                  icon: <FaHtml5 color='#e34c26' />,
+                  skill: 'HTML',
+                },
+                {
+                  icon: <FaCss3 color='#264de4' />,
+                  skill: 'CSS',
                 },
               ]
         },
         {
-            bool: true,
+            name: "Just Natural Paws",
+            date: "July 2023 - May 2024",
+            info: "The Just Natural Paws website was built from scratch to provide an online presence and a place to purchase products.",
             skills: [
                 {
                   icon: <FaReact color='#61dafb' />,
@@ -278,25 +334,31 @@ const ProjectPage = () => {
                   skill: 'Redux',
                 },
                 {
-                  icon: <FaHtml5 color='#e34c26' />,
-                  skill: 'HTML',
-                },
-                {
-                  icon: <FaCss3 color='#264de4' />,
-                  skill: 'CSS',
+                  icon: <SiTailwindcss color='#06b6d4' />,
+                  skill: 'Tailwindcss',
                 },
                 {
                   icon: <FaJs color='yellow' />,
                   skill: 'JavaScript',
                 },
                 {
-                  icon: <SiJquery color='#7acef4' />,
-                  skill: 'JQuery',
+                  icon: <SiFirebase color='#ffa611' />,
+                  skill: 'Firebase',
+                },
+                {
+                  icon: <FaHtml5 color='#e34c26' />,
+                  skill: 'HTML',
+                },
+                {
+                  icon: <FaCss3 color='#264de4' />,
+                  skill: 'CSS',
                 },
               ]
         },
         {
-            bool: false,
+            name: "Just Natural Paws",
+            date: "July 2023 - May 2024",
+            info: "The Just Natural Paws website was built from scratch to provide an online presence and a place to purchase products.",
             skills: [
                 {
                   icon: <FaReact color='#61dafb' />,
@@ -307,25 +369,31 @@ const ProjectPage = () => {
                   skill: 'Redux',
                 },
                 {
-                  icon: <FaHtml5 color='#e34c26' />,
-                  skill: 'HTML',
-                },
-                {
-                  icon: <FaCss3 color='#264de4' />,
-                  skill: 'CSS',
+                  icon: <SiTailwindcss color='#06b6d4' />,
+                  skill: 'Tailwindcss',
                 },
                 {
                   icon: <FaJs color='yellow' />,
                   skill: 'JavaScript',
                 },
                 {
-                  icon: <SiJquery color='#7acef4' />,
-                  skill: 'JQuery',
+                  icon: <SiFirebase color='#ffa611' />,
+                  skill: 'Firebase',
+                },
+                {
+                  icon: <FaHtml5 color='#e34c26' />,
+                  skill: 'HTML',
+                },
+                {
+                  icon: <FaCss3 color='#264de4' />,
+                  skill: 'CSS',
                 },
               ]
         },
         {
-            bool: true,
+            name: "Just Natural Paws",
+            date: "July 2023 - May 2024",
+            info: "The Just Natural Paws website was built from scratch to provide an online presence and a place to purchase products.",
             skills: [
                 {
                   icon: <FaReact color='#61dafb' />,
@@ -336,20 +404,24 @@ const ProjectPage = () => {
                   skill: 'Redux',
                 },
                 {
-                  icon: <FaHtml5 color='#e34c26' />,
-                  skill: 'HTML',
-                },
-                {
-                  icon: <FaCss3 color='#264de4' />,
-                  skill: 'CSS',
+                  icon: <SiTailwindcss color='#06b6d4' />,
+                  skill: 'Tailwindcss',
                 },
                 {
                   icon: <FaJs color='yellow' />,
                   skill: 'JavaScript',
                 },
                 {
-                  icon: <SiJquery color='#7acef4' />,
-                  skill: 'JQuery',
+                  icon: <SiFirebase color='#ffa611' />,
+                  skill: 'Firebase',
+                },
+                {
+                  icon: <FaHtml5 color='#e34c26' />,
+                  skill: 'HTML',
+                },
+                {
+                  icon: <FaCss3 color='#264de4' />,
+                  skill: 'CSS',
                 },
               ]
         },
@@ -359,7 +431,7 @@ const ProjectPage = () => {
         <h1 className='mb-6 text-5xl font-bold text-center underline lg:text-7xl'>Projects</h1>
         <div className='flex flex-wrap justify-center max-w-5xl gap-10 m-8'>
             {projects.map((project, key) => (
-                <Project reverse={project.bool} key={key} skills={project.skills}/>
+                <Project project={project} key={key}/>
             ))}
         </div>
     </div>
