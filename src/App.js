@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-import {BrowserRouter, Route, Routes, useLocation} from "react-router-dom";
+import {HashRouter, Route, Routes, useLocation} from "react-router-dom";
 import Navbar from "./Components/Navbar/Navbar";
 import HomePage from "./Pages/HomePage";
 import SkillsPage from "./Pages/SkillsPage";
@@ -15,7 +15,7 @@ function App() {
     }, [pathname]);
   }
   return (
-    <BrowserRouter basename="/MitchellsPortfolio">
+    <HashRouter>
       <ScrollToTop />
       <Navbar />
       <Routes>
@@ -25,7 +25,7 @@ function App() {
         <Route path='/Resume' element={<ResumePage />} />
         <Route path='/Projects' element={<ProjectPage />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
