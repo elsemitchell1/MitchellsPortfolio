@@ -8,15 +8,16 @@ const Hero = (props) => {
     useEffect(() => {
       if(props.secondheading){
         const interval = setInterval(() => {
-            const text = props.secondheading[phraseIndex];
-            setTypedText(text.substring(0, currentIndex));
-            setCurrentIndex((prevIndex) => {
-              if(prevIndex === text.length){
-                setPhraseIndex((prevPhraseIndex) => (prevPhraseIndex + 1) % props.secondheading.length);
-                return 0;
-              }
-              return prevIndex + 1;
-            });
+          const text = props.secondheading[phraseIndex];
+          setTypedText(text.substring(0, currentIndex + 1));
+          setCurrentIndex((prevIndex) => prevIndex + 1);
+            
+          if(currentIndex === text.length){
+            setTimeout(() => {
+              setPhraseIndex((prevPhraseIndex) => (prevPhraseIndex + 1)%props.secondheading.length);
+              setCurrentIndex(0);
+            },500);
+          }
         }, 200);
 
         return () => clearInterval(interval);

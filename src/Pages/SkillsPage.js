@@ -1,6 +1,6 @@
 import React from 'react';
 import Skills from '../Components/Skills/Skills';
-import { FaBusinessTime, FaChalkboardTeacher, FaCss3, FaHtml5, FaJava, FaJs, FaNode, FaPython, FaReact } from 'react-icons/fa';
+import { FaBusinessTime, FaChalkboardTeacher, FaCss3, FaGitAlt, FaHtml5, FaJava, FaJs, FaNode, FaPython, FaReact } from 'react-icons/fa';
 import { SiCplusplus, SiCsharp, SiDotnet, SiExpress, SiFirebase, SiJquery, SiMysql, SiRedux, SiSanity, SiTailwindcss } from 'react-icons/si';
 import { GiTalk, GiTeamIdea, GiThink } from 'react-icons/gi';
 import { TfiThought } from 'react-icons/tfi';
@@ -99,6 +99,10 @@ const SkillsPage = () => {
         {
           icon: <SiDotnet color='#512bd4' />,
           skill: 'Dot.Net',
+        },
+        {
+          icon: <FaGitAlt color='#f1502f' />,
+          skill: 'git',
         },
       ]
     },  

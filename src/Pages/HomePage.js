@@ -6,7 +6,7 @@ import Australia from '../Images/australia.jpg';
 const HomePage = () => {
     const hero1 = {
         heading: "Hi, I am Mitchell Else",
-        secondheading: ["Web Developer.", "Problem Solver.", "Tech Enthusiast."],
+        secondheading: ["Web Developer.", "Problem Solver.", "Tech Enthusiast.", "Hard Worker.", "Team Player.", "Creative Thinker."],
         info:
           `I am a dedicated web developer currently 
           halfway through my computer science degree. Known 
