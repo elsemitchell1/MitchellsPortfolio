@@ -6,6 +6,7 @@ import SkillsPage from "./Pages/SkillsPage";
 import WorkPage from "./Pages/WorkPage";
 import ResumePage from "./Pages/ResumePage";
 import ProjectPage from "./Pages/ProjectPage";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   const ScrollToTop = () => {
@@ -25,6 +26,7 @@ function App() {
         <Route path='/Resume' element={<ResumePage />} />
         <Route path='/Projects' element={<ProjectPage />} />
       </Routes>
+      <Footer />
     </HashRouter>
   );
 }
