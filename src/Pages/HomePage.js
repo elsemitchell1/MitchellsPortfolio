@@ -8,7 +8,7 @@ const HomePage = () => {
         heading: "Hi, I am Mitchell Else",
         secondheading: ["Web Developer.", "Problem Solver.", "Tech Enthusiast."],
         info:
-          `I am a dedicated front-end web developer currently 
+          `I am a dedicated web developer currently 
           halfway through my computer science degree. Known 
           for being hardworking and reliable, I take pride in 
           my ability to tackle complex problems with innovative 

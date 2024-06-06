@@ -1,13 +1,12 @@
 import React from 'react';
-import FamilyPortrait from '../../Images/FamilyPortrait.png'
 
 const Project = (props) => {
   return (
-    <a href="#top"
-    className='hover:scale-105 p-px bg-gradient-to-r from-[#FFA500] to-[#FFFF00] rounded-2xl'>
-        <div className='p-3 bg-black w-60 h-96 rounded-2xl'>
-            <div className='top-0 h-32 overflow-hidden rounded-xl'>
-                <img src={FamilyPortrait} alt='project' className='object-cover min-w-full min-h-full' />
+    <a href={props.project.link} target='_blank' rel='noreferrer'
+    className='lg:hover:scale-105 p-px bg-gradient-to-r from-[#FFA500] to-[#FFFF00] rounded-2xl'>
+        <div className='flex flex-col items-center p-3 bg-black w-72 h-[450px] rounded-2xl'>
+            <div className='top-0 h-48 overflow-hidden rounded-xl'>
+                <img src={props.project.image} alt='project' className='object-cover min-w-full min-h-full' />
             </div>
             <div className='flex flex-wrap justify-center my-3 gap-y-2 gap-x-2'>
                 {props.project.skills.map((skill, index) => (
@@ -17,7 +16,7 @@ const Project = (props) => {
                   </div>
                 ))}
             </div>
-            <div className='space-y-2'>
+            <div className='mt-auto space-y-2'>
               <h3 className='text-lg font-semibold'>{props.project.name}</h3>
               <h5 className='text-sm font-thin'>{props.project.date}</h5>
               <p className='text-sm'>{props.project.info}</p>
