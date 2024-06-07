@@ -52,24 +52,27 @@ const Comments = (props) => {
   return (
     <div className={`${showComments && 'max-h-40'} flex flex-col p-px text-black bg-gradient-to-r from-[#FFA500] to-[#FFFF00] rounded-b-2xl`}>
       <div className='p-2 w-72'>
-        {loading ? (<div className='flex mb-2'><p className='text-xs w-fit'>Loading Comments...</p><div className='spinner'></div></div>) : showComments ? (
-            <div className='relative'>
-              <button onClick={reveal} className='absolute top-0 right-0'>✖</button>
-              <div className='h-[90px] overflow-y-scroll'>
-                {comments.map((comment, index) => (
-                  <div key={index} className='mb-2'>
-                    <h5 className='text-sm font-bold'>{comment.name}</h5>
-                    <p className='text-xs'>{comment.message}</p>
-                  </div>
-                ))}
-              </div>
+        {loading ? (
+          <div className='flex mb-2'>
+            <p className='text-xs w-fit'>Loading Comments...</p>
+            <div className='spinner'></div>
+          </div>
+        ) : showComments ? (
+          <div className='relative'>
+            <button onClick={reveal} className='absolute top-0 right-0'>✖</button>
+            <div className='h-[90px] overflow-y-scroll'>
+              {comments.map((comment, index) => (
+                <div key={index} className='mb-2'>
+                  <h5 className='text-sm font-bold'>{comment.name}</h5>
+                  <p className='text-xs'>{comment.message}</p>
+                </div>
+              ))}
             </div>
-            ) : (
-            <div>
-              <button className='mb-2 text-xs w-fit' onClick={reveal}>Show {comments.length} Comment{comments.length > 1 && 's'}...</button>
-              <button onClick={() => setShowForm(!showForm)} className='w-full p-px mt-1 font-semibold text-white bg-black rounded-lg w-fit'>Add Comment</button>
-            </div>
-            )}
+          </div>
+        ) : (
+          <button className='mb-2 text-xs w-fit' onClick={reveal}>Show {comments.length} Comment{comments.length !== 1 && 's'}...</button>
+        )}
+        {!loading && <button onClick={() => setShowForm(!showForm)} className='w-full p-px mt-1 font-semibold text-white bg-black rounded-lg w-fit'>Add Comment</button>}
         {showForm && (
           <div className='fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50'>
             <div className='relative w-72 p-4 bg-gradient-to-r from-[#FFA500] to-[#FFFF00] rounded-lg'>
