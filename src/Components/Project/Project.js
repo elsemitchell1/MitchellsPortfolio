@@ -3,8 +3,8 @@ import React from 'react';
 const Project = (props) => {
   return (
     <a href={props.project.link} target='_blank' rel='noreferrer'
-    className='z-10 p-px bg-gradient-to-r from-[#FFA500] to-[#FFFF00] rounded-2xl'>
-        <div className='flex flex-col items-center p-3 bg-black w-72 h-[450px] rounded-2xl'>
+    className='z-10 px-px pt-px bg-gradient-to-r from-[#FFA500] to-[#FFFF00] rounded-t-2xl'>
+        <div className='flex flex-col items-center p-3 bg-black w-72 h-[450px] rounded-t-2xl'>
             <div className='top-0 h-48 overflow-hidden rounded-xl'>
                 <img src={props.project.image} alt='project' className='object-cover min-w-full min-h-full' />
             </div>
