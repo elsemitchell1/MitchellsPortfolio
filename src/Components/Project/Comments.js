@@ -80,14 +80,14 @@ const Comments = (props) => {
                     value={name} 
                     onChange={(e) => setName(e.target.value)} 
                     placeholder='Your name' 
-                    className='w-full mb-2 text-sm border rounded p-[1px]'
+                    className='w-full mb-2 text-[16px] border rounded p-[1px]'
                     required={true}
                     />
                     <textarea 
                     value={message} 
                     onChange={(e) => setMessage(e.target.value)} 
                     placeholder='Your comment' 
-                    className='w-full mb-2 text-sm border rounded p-[1px]'
+                    className='w-full mb-2 text-[16px] border rounded p-[1px]'
                     rows={3}
                     required={true}
                     ></textarea>
