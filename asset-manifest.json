@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MitchellsPortfolio/static/css/main.ecfe1349.css",
-    "main.js": "/MitchellsPortfolio/static/js/main.f81434ca.js",
+    "main.css": "/MitchellsPortfolio/static/css/main.ea108636.css",
+    "main.js": "/MitchellsPortfolio/static/js/main.2eb98ec4.js",
     "static/js/453.1407b060.chunk.js": "/MitchellsPortfolio/static/js/453.1407b060.chunk.js",
     "static/media/PupShareImage.png": "/MitchellsPortfolio/static/media/PupShareImage.b9e6703e96fce283e935.png",
     "static/media/FamilyPortrait.png": "/MitchellsPortfolio/static/media/FamilyPortrait.9992ecd5c41222aaa24a.png",
@@ -14,12 +14,12 @@
     "static/media/WebDevCertificate.png": "/MitchellsPortfolio/static/media/WebDevCertificate.d268f14fa5d5415f9742.png",
     "static/media/Mitchell Else - Resume 2023.webp": "/MitchellsPortfolio/static/media/Mitchell Else - Resume 2023.b99e3c6d2ea54bb18bef.webp",
     "index.html": "/MitchellsPortfolio/index.html",
-    "main.ecfe1349.css.map": "/MitchellsPortfolio/static/css/main.ecfe1349.css.map",
-    "main.f81434ca.js.map": "/MitchellsPortfolio/static/js/main.f81434ca.js.map",
+    "main.ea108636.css.map": "/MitchellsPortfolio/static/css/main.ea108636.css.map",
+    "main.2eb98ec4.js.map": "/MitchellsPortfolio/static/js/main.2eb98ec4.js.map",
     "453.1407b060.chunk.js.map": "/MitchellsPortfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ecfe1349.css",
-    "static/js/main.f81434ca.js"
+    "static/css/main.ea108636.css",
+    "static/js/main.2eb98ec4.js"
   ]
 }
