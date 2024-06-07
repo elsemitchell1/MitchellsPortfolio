@@ -65,9 +65,11 @@ const Comments = (props) => {
               </div>
             </div>
             ) : (
-            <button className='mb-2 text-xs w-fit' onClick={reveal}>Show {comments.length} Comment{comments.length > 1 && 's'}...</button>
-        )}
-        <button onClick={() => setShowForm(!showForm)} className='w-full p-px mt-1 font-semibold text-white bg-black rounded-lg w-fit'>Add Comment</button>
+            <div>
+              <button className='mb-2 text-xs w-fit' onClick={reveal}>Show {comments.length} Comment{comments.length > 1 && 's'}...</button>
+              <button onClick={() => setShowForm(!showForm)} className='w-full p-px mt-1 font-semibold text-white bg-black rounded-lg w-fit'>Add Comment</button>
+            </div>
+            )}
         {showForm && (
           <div className='fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50'>
             <div className='relative w-72 p-4 bg-gradient-to-r from-[#FFA500] to-[#FFFF00] rounded-lg'>

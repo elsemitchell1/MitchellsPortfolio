@@ -1,7 +1,8 @@
 import React from 'react';
 import Project from '../Components/Project/Project';
-import { FaCss3, FaHtml5, FaJs, FaNode, FaReact } from 'react-icons/fa';
-import { SiFirebase, SiJquery, SiRedux, SiSanity, SiTailwindcss } from 'react-icons/si';
+import { FaCcStripe, FaCss3, FaHtml5, FaJs, FaNode, FaReact } from 'react-icons/fa';
+import { SiFirebase, SiJquery, SiMongodb, SiRedux, SiSanity, SiTailwindcss } from 'react-icons/si';
+import Portfolio from '../Images/Portfolio.png';
 import JNPImage from '../Images/JNPImage.png';
 import MitchsPizzaImage from '../Images/MitchsPizzaImage.png';
 import PupShareImage from '../Images/PupShareImage.png';
@@ -12,6 +13,43 @@ import Comments from '../Components/Project/Comments';
 
 const ProjectPage = () => {
     const projects = [
+          {
+            name: "Mitchell's Portfolio",
+            date: "June 2024",
+            info: "This portfolio website showcases my projects. It features a sleek, responsive design, highlighting my expertise in React, Node.js, and MongoDB.",
+            skills: [
+                {
+                  icon: <FaReact color='#61dafb' />,
+                  skill: 'React JS',
+                },
+                {
+                  icon: <SiTailwindcss color='#06b6d4' />,
+                  skill: 'Tailwindcss',
+                },
+                {
+                  icon: <FaNode color='#3c873a' />,
+                  skill: 'Node JS',
+                },
+                {
+                  icon: <SiMongodb color='#589636' />,
+                  skill: 'MongoDB',
+                },
+                {
+                  icon: <FaHtml5 color='#e34c26' />,
+                  skill: 'HTML',
+                },
+                {
+                  icon: <FaCss3 color='#264de4' />,
+                  skill: 'CSS',
+                },
+                {
+                  icon: <FaJs color='yellow' />,
+                  skill: 'JavaScript',
+                },
+              ],
+            link: 'https://elsemitchell1.github.io/MitchellsPortfolio/',
+            image: Portfolio,
+        },
         {
             name: "Just Natural Paws",
             date: "July 2023 - May 2024",
@@ -36,6 +74,10 @@ const ProjectPage = () => {
                 {
                   icon: <SiFirebase color='#ffa611' />,
                   skill: 'Firebase',
+                },
+                {
+                  icon: <FaCcStripe color='#5433FF' />,
+                  skill: 'Stripe',
                 },
                 {
                   icon: <FaHtml5 color='#e34c26' />,
@@ -69,6 +111,10 @@ const ProjectPage = () => {
                 {
                   icon: <SiFirebase color='#ffa611' />,
                   skill: 'Firebase',
+                },
+                {
+                  icon: <FaCcStripe color='#5433FF' />,
+                  skill: 'Stripe',
                 },
                 {
                   icon: <FaHtml5 color='#e34c26' />,

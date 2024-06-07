@@ -1,7 +1,7 @@
 import React from 'react';
 import Skills from '../Components/Skills/Skills';
-import { FaBusinessTime, FaChalkboardTeacher, FaCss3, FaGitAlt, FaHtml5, FaJava, FaJs, FaNode, FaPython, FaReact } from 'react-icons/fa';
-import { SiCplusplus, SiCsharp, SiDotnet, SiExpress, SiFirebase, SiJquery, SiMysql, SiRedux, SiSanity, SiTailwindcss } from 'react-icons/si';
+import { FaBusinessTime, FaCcStripe, FaChalkboardTeacher, FaCss3, FaGitAlt, FaHtml5, FaJava, FaJs, FaNode, FaPython, FaReact } from 'react-icons/fa';
+import { SiCplusplus, SiCsharp, SiDotnet, SiExpress, SiFirebase, SiJquery, SiMongodb, SiMysql, SiRedux, SiSanity, SiTailwindcss } from 'react-icons/si';
 import { GiTalk, GiTeamIdea, GiThink } from 'react-icons/gi';
 import { TfiThought } from 'react-icons/tfi';
 
@@ -62,6 +62,14 @@ const SkillsPage = () => {
         {
           icon: <SiSanity color='#f44839' />,
           skill: 'Sanity.io',
+        },
+        {
+          icon: <SiMongodb color='#589636' />,
+          skill: 'MongoDB',
+        },
+        {
+          icon:<FaCcStripe color='#5433FF' />,
+          skill: 'Stripe',
         },
       ]
     },  
