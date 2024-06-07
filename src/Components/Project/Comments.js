@@ -70,14 +70,14 @@ const Comments = (props) => {
             </div>
           </div>
         ) : (
-          <button className='mb-2 text-xs w-fit' onClick={reveal}>Show {comments.length} Comment{comments.length !== 1 && 's'}...</button>
+          <button className='mb-2 text-xs w-fit lg:hover:font-medium' onClick={reveal}>Show {comments.length} Comment{comments.length !== 1 && 's'}...</button>
         )}
-        {!loading && <button onClick={() => setShowForm(!showForm)} className='w-full p-px mt-1 font-semibold text-white bg-black rounded-lg w-fit'>Add Comment</button>}
+        {!loading && <button onClick={() => setShowForm(!showForm)} className='w-full p-px mt-1 font-semibold text-white bg-black rounded-lg w-fit lg:hover:font-bold'>Add Comment</button>}
         {showForm && (
-          <div className='fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50'>
+          <div className='fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-80'>
             <div className='relative w-72 p-4 bg-gradient-to-r from-[#FFA500] to-[#FFFF00] rounded-lg'>
                 <div className='flex justify-center mb-3'>
-                    <h4 className='font-semibold text-md'>Project: {props.project.name}</h4>
+                    <h4 className='text-lg font-semibold'>Project: {props.project.name}</h4>
                 </div>
                 <button onClick={() => setShowForm(false)} className='absolute top-2 right-2'>✖</button>
                 <form onSubmit={handleAddComment}>
@@ -97,7 +97,7 @@ const Comments = (props) => {
                     rows={3}
                     required={true}
                     ></textarea>
-                    <button type='submit' className='w-full bg-white rounded-lg'>Submit</button>
+                    <button type='submit' className='w-full bg-white rounded-lg lg:hover:scale-105'>Submit</button>
                 </form>
             </div>
           </div>

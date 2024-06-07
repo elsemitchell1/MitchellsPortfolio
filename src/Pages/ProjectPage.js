@@ -9,7 +9,6 @@ import PupShareImage from '../Images/PupShareImage.png';
 import ChewbarkerImage from '../Images/ChewbarkerImage.png';
 import NASAImage from '../Images/NASAImage.png';
 import WebDevCertificate from '../Images/WebDevCertificate.png';
-import Comments from '../Components/Project/Comments';
 
 const ProjectPage = () => {
     const projects = [
@@ -242,10 +241,7 @@ const ProjectPage = () => {
         <h1 className='mb-6 text-5xl font-bold text-center underline lg:text-7xl'>Projects</h1>
         <div className='flex flex-wrap justify-center max-w-5xl gap-10 m-8'>
             {projects.map((project, key) => (
-              <div key={key} className='flex flex-col'>
-                <Project project={project}/>
-                <Comments project={project} />
-              </div>
+                <Project key={key} project={project}/>
             ))}
         </div>
     </div>
