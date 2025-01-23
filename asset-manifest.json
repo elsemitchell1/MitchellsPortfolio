@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MitchellsPortfolio/static/css/main.b61b75d0.css",
-    "main.js": "/MitchellsPortfolio/static/js/main.f0f091e0.js",
+    "main.js": "/MitchellsPortfolio/static/js/main.6dd1d001.js",
     "static/js/453.1407b060.chunk.js": "/MitchellsPortfolio/static/js/453.1407b060.chunk.js",
     "static/media/PupShareImage.png": "/MitchellsPortfolio/static/media/PupShareImage.b9e6703e96fce283e935.png",
     "static/media/FamilyPortrait.png": "/MitchellsPortfolio/static/media/FamilyPortrait.9992ecd5c41222aaa24a.png",
@@ -12,14 +12,15 @@
     "static/media/ChewbarkerImage.png": "/MitchellsPortfolio/static/media/ChewbarkerImage.d087b821a0e19bb7b72a.png",
     "static/media/JNPImage.png": "/MitchellsPortfolio/static/media/JNPImage.12e106d718e1b169cf15.png",
     "static/media/WebDevCertificate.png": "/MitchellsPortfolio/static/media/WebDevCertificate.d268f14fa5d5415f9742.png",
-    "static/media/Mitchell Else Resume 2024.webp": "/MitchellsPortfolio/static/media/Mitchell Else Resume 2024.b300f421b5b065f8ebb7.webp",
+    "static/media/Mitchell Else Resume 2025p2.webp": "/MitchellsPortfolio/static/media/Mitchell Else Resume 2025p2.cddaa644b2c0bd6c946e.webp",
+    "static/media/Mitchell Else Resume 2025p1.webp": "/MitchellsPortfolio/static/media/Mitchell Else Resume 2025p1.ca0303a2a5f8a3b383a7.webp",
     "index.html": "/MitchellsPortfolio/index.html",
     "main.b61b75d0.css.map": "/MitchellsPortfolio/static/css/main.b61b75d0.css.map",
-    "main.f0f091e0.js.map": "/MitchellsPortfolio/static/js/main.f0f091e0.js.map",
+    "main.6dd1d001.js.map": "/MitchellsPortfolio/static/js/main.6dd1d001.js.map",
     "453.1407b060.chunk.js.map": "/MitchellsPortfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b61b75d0.css",
-    "static/js/main.f0f091e0.js"
+    "static/js/main.6dd1d001.js"
   ]
 }
