@@ -1,5 +1,5 @@
 import React from 'react';
-import Resume from '../Images/Mitchell Else - Resume 2023.webp'
+import Resume from '../Images/Mitchell Else Resume 2024.webp'
 
 const ResumePage = () => {
   return (

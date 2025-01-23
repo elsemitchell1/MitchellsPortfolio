@@ -40,10 +40,11 @@ const Hero = (props) => {
               {props.info}
             </p>
           </div>
-          <div className='flex mx-auto mb-10 lg:mb-0 justify-center items-center w-[320px] h-[320px] overflow-hidden lg:w-[500px] lg:h-[460px]'>
-            <div className='h-full w-full p-1.5 rounded-full  bg-gradient-to-r from-[#FFA500] to-[#FFFF00]'>  
+          <div className='overflow-visible relative mx-auto mb-10 lg:mb-0 justify-center items-center w-[320px] h-[320px] lg:w-[500px] lg:h-[460px]'>
+            <div className='absolute top-0 z-10 w-full h-full p-1.5 rounded-full'>
               <img src={props.image} alt='img1' className='object-cover h-full rounded-full'/>
             </div>
+            <div className='z-0 absolute top-0 h-full w-full rounded-full bg-gradient-to-r from-[#FFA500] to-[#FFFF00] animate-spinSlow'> </div>
           </div>
         </div>
     </div>
